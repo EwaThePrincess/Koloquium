@@ -15,9 +15,9 @@ public class Main {
         System.out.println(godzina.timeMultiply(6));
 
                 Time[] tablica = {
-                        new Time(1, 45),  // 1 godzina 45 minut
-                        new Time(2, 15),  // 2 godziny 15 minut
-                        new Time(0, 30)   // 0 godzin 30 minut
+                        new Time(6, 45),
+                        new Time(3, 55),
+                        new Time(0, 30)
                 };
                 System.out.println(Time.sumTimes(tablica));
 
